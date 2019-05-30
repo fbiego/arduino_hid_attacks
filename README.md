@@ -9,6 +9,7 @@ as powershell and execute commands.
 The arduino will take over your mouse and/or keyboard hence it is
 advisable to run the code once i.e. in `setup()` function
 
+
 ## Sketches
 
 **[random_mouse](random_mouse/random_mouse.ino)**
@@ -21,7 +22,8 @@ opens wordpad and types random characters
 
 **[copy_files](copy_files/copy_files.ino)**
 
-copies specified files to removable storage
+copies specified files to removable storage.
+
 First insert removable storage and change name to match your disk
 
 **[fast_type](fast_type/fast_type.ino)**
