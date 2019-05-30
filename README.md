@@ -7,7 +7,7 @@ as powershell and execute commands.
 
 ## Important
 The arduino will take over your mouse and/or keyboard hence it is
-advisable to run the code once ie in `setup()` function
+advisable to run the code once i.e. in `setup()` function
 
 ## Sketches
 ### random_mouse
