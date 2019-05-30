@@ -1,4 +1,8 @@
-
+/*
+ * this code opens wordpad and writes a string for the number of
+ * specified times
+ * 
+ */
 
 #include <Keyboard.h>
 
