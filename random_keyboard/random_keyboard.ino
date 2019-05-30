@@ -1,5 +1,5 @@
 /*
- * this code opens wordpad andtypes random characters
+ * this code opens wordpad and types random characters
  * 
 */
 
