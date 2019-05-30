@@ -16,7 +16,8 @@ moves the mouse to random positions
 ### random_keyboard
 opens wordpad and types random characters
 
-### copy_files
+[### copy_files](copy_files/copy_files.ino)
+
 copies specified files to removable storage
 First insert removable storage and change name to match your disk
 
