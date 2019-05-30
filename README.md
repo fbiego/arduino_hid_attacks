@@ -37,3 +37,8 @@ saves tree of C:\ to text file in removable storage
 **[run_script](run_script/run_script.ino)**
 
 runs a script from removable storage
+
+**[text_loop](text_loop/text_loop.ino)**
+
+opens wordpad and writes a string for the number of
+specified times
