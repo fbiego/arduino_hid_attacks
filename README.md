@@ -11,6 +11,10 @@ advisable to run the code once i.e. in `setup()` function
 
 ![Arduno Pro Micro](images/pro_micro.jpg?raw=true "Arduno Pro Micro")
 
+## Video
+
+**[YouTube](https://youtu.be/_H-RFe1m1ns)**
+
 ## Sketches
 
 **[random_mouse](random_mouse/random_mouse.ino)**
