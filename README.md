@@ -13,7 +13,7 @@ advisable to run the code once i.e. in `setup()` function
 
 ## Video
 
-**[YouTube](https://youtu.be/_H-RFe1m1ns)**
+**[YouTube link](https://youtu.be/chAwRP5RTVQ)**
 
 ## Sketches
 
