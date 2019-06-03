@@ -9,11 +9,13 @@ as powershell and execute commands.
 The arduino will take over your mouse and/or keyboard hence it is
 advisable to run the code once i.e. in `setup()` function
 
+## Links
+
+**[YouTube Video](https://youtu.be/chAwRP5RTVQ)**
+
+**[Download zip](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/fbiego/arduino_hid_attacks)**
+
 ![Arduno Pro Micro](images/pro_micro.jpg?raw=true "Arduno Pro Micro")
-
-## Video
-
-**[YouTube link](https://youtu.be/chAwRP5RTVQ)**
 
 ## Sketches
 
