@@ -9,6 +9,7 @@ as powershell and execute commands.
 The arduino will take over your mouse and/or keyboard hence it is
 advisable to run the code once i.e. in `setup()` function
 
+![Arduno Pro Micro](images/pro_micro.jpg?raw=true "Arduno Pro Micro")
 
 ## Sketches
 
