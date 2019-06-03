@@ -39,7 +39,7 @@ types pre-selected text
 
 **[save_tree](save_tree/save_tree.ino)**
 
-saves tree of C:\ to text file in removable storage
+saves tree of C:\ to text file to removable storage
 
 **[run_script](run_script/run_script.ino)**
 
